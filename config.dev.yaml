@@ -1,6 +1,6 @@
 environment:
   name: dev
-  project: <my-project-dev>
+  project: test-dev
   validation-type: dev
   selected:
   - modules/
