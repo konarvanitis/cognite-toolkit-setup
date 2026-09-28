@@ -7,7 +7,10 @@ authors = [
     { name = "Cognite", email = "academy@cognite.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "cognite-toolkit>=0.8.232",
+    "matplotlib>=3.11.2",
+]
 
 [tool.uv]
 package = false
