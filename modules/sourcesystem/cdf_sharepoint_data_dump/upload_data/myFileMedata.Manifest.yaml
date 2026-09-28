@@ -1,0 +1,13 @@
+kind: FileContent
+type: fileDataModelingTemplate
+fileDirectory: ./data
+viewId:
+  space: dm_dom_oil_and_gas
+  externalId: Files
+  version: v1
+template:
+  instanceId:
+    space: inst_cfihos_oil_and_gas
+    externalId: file_$FILENAME
+  name: $FILENAME
+  mimeType: application/pdf

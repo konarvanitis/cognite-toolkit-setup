@@ -1,0 +1,10 @@
+# Single trigger for the complete file annotation workflow
+- externalId: {{ workflowExternalId }}_trigger
+  triggerRule:
+    triggerType: schedule
+    cronExpression: "{{ workflowSchedule }}"
+  workflowExternalId: {{ workflowExternalId }}
+  workflowVersion: v1
+  authentication:
+    clientId: {{ functionClientId }}
+    clientSecret: {{ functionClientSecret }}
