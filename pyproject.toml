@@ -1,7 +1,7 @@
 [project]
 name = "cognite-toolkit-setup"
 version = "0.1.0"
-description = "Add your description here"
+description = "Cognite Toolkit project for deploying the CFIHOS oil & gas modules to CDF"
 readme = "README.md"
 authors = [
     { name = "Cognite", email = "academy@cognite.com" }
